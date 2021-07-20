@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="fill_parent"
+        android:background="#000">
+
+
+
+    <ImageView
+            android:alpha="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bacground"/>
+
+
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:text="Catch the RA"
+            android:textSize="50dp"
+            android:textColor="@color/textColor"/>
+
+    <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="190dp"
+            android:text="Start"
+            android:textSize="20dp"
+            android:textColor="@color/textColor"
+            android:background="@drawable/button1"/>
+
+    <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:text="PrivacyPolicy"
+            android:textSize="20dp"
+            android:textColor="@color/textColor"
+            android:background="@drawable/button1"/>
+
+
+    <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="310dp"
+            android:text="Exit"
+            android:textSize="20dp"
+            android:textColor="@color/textColor"
+            android:background="@drawable/button1"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            app:lottie_rawRes="@raw/pyramid"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_height="300dp"
+            android:layout_width="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            tools:layout_editor_absoluteY="250dp"
+            tools:layout_editor_absoluteX="46dp"/>
+
+
+</RelativeLayout>
